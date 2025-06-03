@@ -170,7 +170,7 @@ p {
 .indicators {
   position: absolute;
   bottom: -20px;
-  left: 470px;
+  left: 670px;
   display: flex;
   gap: 8px;
   top: 326px;
@@ -189,4 +189,34 @@ p {
   background-color: #ccc;
   width: 25px;
   border-radius: 20px;
+}
+.javascript{
+font-family: Raleway;
+font-weight: 600;
+font-size: 50px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #C69AFF;
+}
+.react{
+font-family: Raleway;
+font-weight: 600;
+font-size: 50px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #9F53FF;
+}
+.coffee{
+  font-family: Raleway;
+font-weight: 600;
+font-size: 50px;
+line-height: 100%;
+letter-spacing: 0%;
+color :#6104D6;
+}
+.java{
+ display: flex;
+ align-items: center;
+ flex-direction:column;
+ gap: 60px;
 }
