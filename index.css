@@ -132,7 +132,13 @@ p {
   height: auto;
   z-index: -1;
 }
-
+.title{
+  font-family: Raleway;
+font-weight: 400;
+font-size: 60px;
+margin-top: 114px;
+margin-left: 100px;
+}
 .xp-text {
   color: white;
   position: relative;
@@ -151,11 +157,6 @@ p {
   color: rgb(255, 255, 255);
 }
 
-.tech-cards {
-  display: flex;
-  gap: 20px;
-  position: relative;
-}
 
 
 .tech-cards {
@@ -219,4 +220,45 @@ color :#6104D6;
  align-items: center;
  flex-direction:column;
  gap: 60px;
+}
+.uuuu {
+  top : 150px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 100px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #0F0F10;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 20px 30px;
+  width: 230px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.05);
+}
+
+.card h3 {
+  font-family: "Nunito";
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.item img {
+  width: 20px;
+  height: 20px;
+}
+
+.item span {
+  font-size: 14px;
+  color: white;
 }
