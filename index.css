@@ -262,3 +262,170 @@ color :#6104D6;
   font-size: 14px;
   color: white;
 }
+
+.follow-container {
+  padding: 40px 80px;
+  font-family: "Raleway", sans-serif;
+  background-color: #0C0C0D;
+}
+
+.follow-bar {
+  background-color: #161616;
+  border-radius: 999px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 30px;
+  max-width: 1100px;
+  
+}
+
+.follow-text {
+  color: #7a7a7a;
+  font-size: 16px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #7a7a7a;
+  text-align: left;
+}
+@media screen and (max-width: 768px) {
+
+  body {
+    padding: 0 10px;
+  }
+
+.search.bar {
+  display: none;
+}
+.indicators{
+  display: none;
+}
+.uuuu > div {
+    display: none;
+  }
+
+  .uuuu > div:nth-child(2) {
+    display: block;
+  }
+
+  .uuuu {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+}
+  .left-side {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .hero {
+    flex-direction: column;
+    gap: 40px;
+    padding: 0;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .hero-image img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .xp-section {
+    flex-direction: column;
+    padding: 40px 0;
+    gap: 40px;
+  }
+
+  .xp-background {
+    display: none;
+  }
+
+  .xp-text {
+    padding-top: 0;
+  }
+
+  .xp-text h2 {
+    font-size: 32px;
+  }
+
+  .xp-text p {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 36px;
+    margin: 40px 0 0;
+    text-align: center;
+  }
+
+  
+
+
+  .card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .follow-container {
+    padding: 20px;
+  }
+
+  .follow-bar {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+  }
+
+  .follow-text {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .social-icons {
+    gap: 16px;
+  }
+
+  .copyright {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
