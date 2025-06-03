@@ -110,5 +110,83 @@ p {
     width: 390px;
     height: 380px;
     border-radius: 50%;
- 
+}
+.xp-section {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 80px;
+  position: relative;
+}
+
+.xp-background {
+  position: relative;
+  width: 500px;
+}
+
+.xp-background img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: auto;
+  z-index: -1;
+}
+
+.xp-text {
+  color: white;
+  position: relative;
+  padding-top: 100px;
+}
+
+.xp-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #6F6F6F;
+}
+
+.xp-text h2 {
+  font-size: 48px;
+  margin: 10px 0;
+  color: rgb(255, 255, 255);
+}
+
+.tech-cards {
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+
+.tech-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+
+
+
+.indicators {
+  position: absolute;
+  bottom: -20px;
+  left: 470px;
+  display: flex;
+  gap: 8px;
+  top: 326px;
+}
+
+
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #777;
+  border-radius: 50%;
+}
+
+.dot.active {
+  background-color: #ccc;
+  width: 25px;
+  border-radius: 20px;
 }
