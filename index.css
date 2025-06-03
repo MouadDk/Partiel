@@ -17,7 +17,10 @@
 
 body {
     background-color: #0C0C0D; 
-    color: #0C0C0D;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .left-side {
     display: flex;
@@ -45,8 +48,67 @@ p {
     font-size: 18px;
     margin: 0;
 }
+.hero {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 0 50px;
+}
 
-.icons img {
-    width: 24px;
-    height: 24px;
+/* for the shape */
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 64px;
+    color: white;
+    margin: 0 0 20px;
+    font-weight: 700;
+}
+
+.hero-text p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #999;
+    margin-bottom: 40px;
+}
+
+.hero-text strong {
+    color: white;
+    font-weight: 600;
+    
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.cv-btn {
+    padding: 12px 24px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.exp-link {
+    color: #b292ff;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 10px;
+
+}
+
+
+.hero-image img {
+    width: 390px;
+    height: 380px;
+    border-radius: 50%;
+ 
 }
