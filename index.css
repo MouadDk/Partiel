@@ -162,10 +162,12 @@ margin-left: 100px;
 .tech-cards {
   display: flex;
   gap: 20px;
-  justify-content: space-between;
+  justify-content: flex-start;
+  overflow: hidden;        
+  width: 750px;           
+  margin: 0 auto;
   position: relative;
 }
-
 
 
 .indicators {
@@ -302,53 +304,24 @@ color :#6104D6;
   color: #7a7a7a;
   text-align: left;
 }
+
 @media screen and (max-width: 768px) {
-
-  body {
-    padding: 0 10px;
-  }
-
-.search.bar {
-  display: none;
-}
+ .search.bar{
+display: none; }
 .indicators{
   display: none;
 }
-.uuuu > div {
-    display: none;
-  }
-
-  .uuuu > div:nth-child(2) {
-    display: block;
-  }
-
-  .uuuu {
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 20px;
-  }
-}
-  .left-side {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    width: 100%;
-  }
 
   .hero {
     flex-direction: column;
-    gap: 40px;
-    padding: 0;
     margin-top: 100px;
+    gap: 40px;
+    padding: 0 20px;
     text-align: center;
   }
 
-  .hero-text {
-    max-width: 100%;
-  }
-
   .hero-text h1 {
-    font-size: 36px;
+    font-size: 40px;
   }
 
   .hero-text p {
@@ -363,43 +336,48 @@ color :#6104D6;
   .hero-buttons {
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 15px;
   }
 
   .xp-section {
     flex-direction: column;
-    padding: 40px 0;
-    gap: 40px;
-  }
-
-  .xp-background {
-    display: none;
-  }
-
-  .xp-text {
-    padding-top: 0;
+    padding: 40px 20px;
   }
 
   .xp-text h2 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .xp-text p {
-    font-size: 14px;
+    font-size: 13px;
+  }
+
+  .xp-background {
+    width: 100%;
+    display: none;
   }
 
   .title {
     font-size: 36px;
-    margin: 40px 0 0;
-    text-align: center;
+    margin-left: 20px;
+    margin-top: 60px;
   }
 
-  
+  .tech-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
 
+  .uuuu {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
 
   .card {
     width: 100%;
-    max-width: 320px;
+    max-width: 300px;
   }
 
   .follow-container {
@@ -410,13 +388,10 @@ color :#6104D6;
     flex-direction: column;
     gap: 20px;
     padding: 20px;
-    border-radius: 20px;
-    align-items: center;
   }
 
   .follow-text {
     font-size: 14px;
-    text-align: center;
   }
 
   .social-icons {
@@ -424,8 +399,7 @@ color :#6104D6;
   }
 
   .copyright {
-    text-align: center;
     font-size: 12px;
-    margin-top: 20px;
+    text-align: center;
   }
-
+}
